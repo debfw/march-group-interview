@@ -25,9 +25,20 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
-@layer utilities {
+ @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  ul,
+  ol {
+    list-style: none;
+    margin-top: 30px;
+  }
+  button{
+    background-color: white;
+    margin-left:10px
+  }
+} 
